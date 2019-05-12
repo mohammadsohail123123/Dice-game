@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<meta name="HandheldFriendly" content="true">
+    <title>Document</title>
+    <link rel="stylesheet" href="p1.css">
+   
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="leftcontainer active">
+              <h1 class="player-name">Player 1</h1>
+              <h1 class="player-score" id="score-0">50</h1>
+              <div class="red-box">
+              <div class="current-label">Current</div>
+              <div class="current-score" id="current-0">15</div>
+            </div>
+        </div>
+        
+
+        <div class="rightcontainer">
+            <h1 class="player-name">Player 2</h1>
+            <h1 class="player-score" id="score-1">60</h1>
+            <div class="red-box">
+                <div class="current-label">Current</div>
+                <div class="current-score" id="current-1">20</div>
+              </div>
+        </div>
+
+
+        <button class="btn-new"><i class="ion-ios-plus-outline"></i>New Game</button><br>
+        <button class="btn-roll" onclick="generate()"><i class="ion-ios-loop"></i>Roll Dice</button><br>
+        <button class="btn-hold" onclick="hold()"><i class="ion-ios-download-outline"></i>Hold</button>
+        <input type="text"  class="text" id="text" placeholder="Game-size">    
+       
+    <h1 class="dice-score" id="dice-score" >15</h1>
+    </div>
+    <script src="p1.js"></script>
+</body>
+
+</html>
